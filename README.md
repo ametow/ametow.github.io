@@ -1,8 +1,6 @@
-## Hi there 👋
-
 ## Software Engineer
 
-### :octocat: Arslan Ametov :octocat:
+### Arslan Ametov
 
 📞 Phone: +16418192316
 📧 Email: dev.ametov@gmail.com
