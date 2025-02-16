@@ -6,7 +6,7 @@
 
 📧 Email: dev.ametov@gmail.com
 
-LinkedIn: linkedin.com/in/dev-ametov
+LinkedIn: [LinkedIn](https://wwww.linkedin.com/in/dev-ametov)
 
 ### 📚 Education
 
