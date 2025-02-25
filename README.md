@@ -36,7 +36,7 @@ LinkedIn: [LinkedIn](https://wwww.linkedin.com/in/dev-ametov)
 - Integrated Fluentd with Elasticsearch, Kibana, enabling real-time log visualization and analytics for operational insights.
 - Implemented distributed caching with Redis, enhancing system resilience and achieving sub-millisecond response times, even during peak traffic.
 
-#### Fullstack Developer Intern (~1.5 year), Turkmenportal. Turkmenistan
+#### Fullstack Developer Intern (~6 months), Turkmenportal. Turkmenistan
 
 - Contributed to a microservices-based system, learning Spring Cloud and distributed architecture best practices.
 - Developed efficient ORM mappings with Hibernate &amp; JPA, improving database interaction speed and reducing memory footprint.
