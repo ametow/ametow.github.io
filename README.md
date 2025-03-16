@@ -7,6 +7,7 @@
 📧 Email: dev.ametov@gmail.com
 
 LinkedIn: [LinkedIn](https://www.linkedin.com/in/dev-ametov)
+
 GitHub: [GitHub](https://github.com/ametow)
 
 ### 📃 Projects
