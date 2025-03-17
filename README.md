@@ -62,18 +62,18 @@ Software Engineer | Backend Engineer
 ---  
 
 ### **SKILLS**  
-💻 **Programming Languages**: Golang, Java, C++, Python, JavaScript  
+💻 **Programming Languages**: Golang, Java, JavaScript
 ☁️ **Cloud & DevOps**: AWS (EC2, S3, Lambda, RDS), Kubernetes, Docker, Terraform  
-📊 **Databases**: PostgreSQL, MySQL, Redis  
-🔗 **Backend & APIs**: Microservices, gRPC, REST, MTProto  
-⚡ **Performance Optimization**: Profiling (pprof, Pyroscope), Caching (Redis, PgBouncer)  
-🛠 **Tools & Technologies**: Git, GitLab CI/CD, Nginx, RabbitMQ  
+📊 **Databases**: PostgreSQL, MySQL, Redis
+🔗 **Backend & APIs**: Microservices, gRPC, REST, MTProto, Spring
+⚡ **Performance Optimization**: Profiling (pprof, Pyroscope), Caching (Redis, PgBouncer)
+🛠 **Tools & Technologies**: Linux, Git, GitLab CI/CD, Nginx, Kafka
 
 ---  
 
 ### **EXTRACURRICULAR ACTIVITIES**  
 #### **ITEA Learning Center** — Instructor  
 📅 **Mar 2024 – May 2024**  
-- Taught **C# Basics and Advanced OOP**, mentoring 30+ students in **software engineering principles**.  
+- Taught **C# Basics and Advanced OOP**, mentoring 10+ students in **software engineering principles**.  
 
 ---
