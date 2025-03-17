@@ -67,7 +67,7 @@ Software Engineer | Backend Engineer
 📊 **Databases**: PostgreSQL, MySQL, Redis
 🔗 **Backend & APIs**: Microservices, gRPC, REST, MTProto, Spring
 ⚡ **Performance Optimization**: Profiling (pprof, Pyroscope), Caching (Redis, PgBouncer)
-🛠 **Tools & Technologies**: Linux, Git, GitLab CI/CD, Nginx, Kafka
+🛠 **Tools & Technologies**: Linux, Git, GitHub Actions, GitLab CI/CD, Nginx, Kafka
 
 ---  
 
