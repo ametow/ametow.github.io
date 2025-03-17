@@ -1,20 +1,79 @@
-## Software Engineer
+**Arslan Ametov**  
+Software Engineer | Backend Engineer  
 
-### Arslan Ametov
+📍 Fairfield, IA, USA | 📧 dev.ametov@gmail.com | 📞 641-819-2316  
+🔗 [LinkedIn](https://www.linkedin.com/in/dev-ametov/) | [GitHub](https://github.com/ametow) | [Portfolio](https://arslanbek.com)  
 
-📞 Phone: +16418192316
+---  
 
-📧 Email: dev.ametov@gmail.com
+### **EXPERIENCE**  
+#### **Belet** — Golang Developer  
+📍 Ashgabat, Turkmenistan | **Aug 2021 – Jul 2024**  
+- Developed and maintained a high-performance **Golang-based messaging platform** serving **1M+ active users**.  
+- Optimized **microservices performance by 25%** using **Pyroscope and pprof**, resolving bottlenecks.  
+- Automated **CI/CD pipelines** in **self-hosted GitLab**, reducing deployment time by **40%**.  
+- Designed a **custom testing library** for **MTProto RPC**, improving testability and maintainability.  
+- Deployed **highly available Kubernetes clusters** for production stability and scalability.  
+- Implemented **PostgreSQL master-slave replication** and **PgBouncer**, enhancing database efficiency.  
 
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/dev-ametov)
+#### **Turkmenportal** — Full Stack Developer  
+📍 Ashgabat, Turkmenistan | **Aug 2019 – Aug 2021**  
+- Implemented **server-side rendering (SSR) with Nuxt.js**, improving **SEO and initial load times by 75%**.  
+- **Dockerized** microservices with **multi-stage builds and caching**, reducing build time by **40%**.  
+- Configured **Nginx caching strategies**, decreasing disk I/O and improving request efficiency.  
+- Designed and built a **RESTful API** for a **file storage application** (similar to Dropbox).  
+- Optimized **database queries** using **prefix algorithms**, reducing entity retrieval time.  
 
-GitHub: [GitHub](https://github.com/ametow)
+---  
 
-### 📃 Projects
+### **PROJECTS**  
+#### **Godump** — Golang, Network Packet Sniffing  
+📅 **Feb 2025 – Mar 2025**  
+- Developed a **network traffic analysis tool** similar to **tcpdump/Wireshark** using Golang.  
 
-- [Eth blockchain parser](https://github.com/ametow/getblock) - This program gets latest 100 blocks in ETH main network, returns the address which had maximum liquidity
-- [Go microservice](https://github.com/ametow/go-microservice) - Just a microservice sample in Golang
-- [Sieve Cache](https://github.com/ametow/sieve-cache) - Sieve Cache, selective and adaptive caching based on specific filtering rules or algorithms tailored to the use case
-- [Start Bot library](https://github.com/ametow/start-bot-api) - Messaging Platform Bot api client library for Golang
+#### **GetBlock** — Golang, Ethereum  
+📅 **Apr 2024 – May 2024**  
+- Implemented a **blockchain parser** to retrieve **liquidity data from Ethereum blocks**.  
 
-### I would be happy to answer your questions and discuss collaboration opportunities!
+#### **Owaz Music** — Python, Django, Vue.js, PostgreSQL  
+📅 **Jun 2020 – Jan 2021**  
+- Developed a **full-stack music streaming platform**, implementing **seamless playback**.  
+- Improved **server response time by 25%** using **Redis caching**.  
+
+---  
+
+### **EDUCATION**  
+#### **Maharishi International University**  
+📍 Fairfield, IA, USA  
+🎓 **Master of Science in Computer Science (GPA: 3.86/4.0)**  
+📅 **Aug 2024 – Apr 2027 (expected)**  
+
+#### **Engineering and Technology University**  
+📍 Ashgabat, Turkmenistan  
+🎓 **Bachelor of Science in Computer Science**  
+📅 **Aug 2016 – Jun 2021**  
+
+---  
+
+### **CERTIFICATIONS**  
+- **AWS Solutions Architect Associate**  
+- **Yandex Backend Development School (Golang)**  
+
+---  
+
+### **SKILLS**  
+💻 **Programming Languages**: Golang, Java, C++, Python, JavaScript  
+☁️ **Cloud & DevOps**: AWS (EC2, S3, Lambda, RDS), Kubernetes, Docker, Terraform  
+📊 **Databases**: PostgreSQL, MySQL, Redis  
+🔗 **Backend & APIs**: Microservices, gRPC, REST, MTProto  
+⚡ **Performance Optimization**: Profiling (pprof, Pyroscope), Caching (Redis, PgBouncer)  
+🛠 **Tools & Technologies**: Git, GitLab CI/CD, Nginx, RabbitMQ  
+
+---  
+
+### **EXTRACURRICULAR ACTIVITIES**  
+#### **ITEA Learning Center** — Instructor  
+📅 **Mar 2024 – May 2024**  
+- Taught **C# Basics and Advanced OOP**, mentoring 30+ students in **software engineering principles**.  
+
+---
