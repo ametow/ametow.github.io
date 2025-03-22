@@ -68,6 +68,6 @@ Software Engineer | Backend Engineer
 
 #### **Algorithm Community at Oguzhan university**, Member
 📅 **Oct. 2018 – June 2019** 
-• Gave lectures about Binary Search, Dynamic Programming and other Algorithms to a class over 20 Junior CS students.
-• Participated in several algorithm competitions as a team of 2 and got into top 5 out of 20 teams.
+- Gave lectures about Binary Search, Dynamic Programming and other Algorithms to a class over 20 Junior CS students.
+- Participated in several algorithm competitions as a team of 2 and got into top 5 out of 20 teams.
 ---
