@@ -9,20 +9,9 @@ Software Engineer | Backend Engineer
 ### **EXPERIENCE**  
 #### **Belet** — Golang Developer  
 📍 Ashgabat, Turkmenistan | **Aug 2021 – Jul 2024**  
-- Developed and maintained a high-performance **Golang-based messaging platform** serving **1M+ active users**.  
-- Optimized **microservices performance by 25%** using **Pyroscope and pprof**, resolving bottlenecks.  
-- Automated **CI/CD pipelines** in **self-hosted GitLab**, reducing deployment time by **40%**.  
-- Designed a **custom testing library** for **MTProto RPC**, improving testability and maintainability.  
-- Deployed **highly available Kubernetes clusters** for production stability and scalability.  
-- Implemented **PostgreSQL master-slave replication** and **PgBouncer**, enhancing database efficiency.  
 
 #### **Turkmenportal** — Full Stack Developer  
 📍 Ashgabat, Turkmenistan | **Aug 2019 – Aug 2021**  
-- Implemented **server-side rendering (SSR) with Nuxt.js**, improving **SEO and initial load times by 75%**.  
-- **Dockerized** microservices with **multi-stage builds and caching**, reducing build time by **40%**.  
-- Configured **Nginx caching strategies**, decreasing disk I/O and improving request efficiency.  
-- Designed and built a **RESTful API** for a **file storage application** (similar to Dropbox).  
-- Optimized **database queries** using **prefix algorithms**, reducing entity retrieval time.  
 
 ---  
 
@@ -38,7 +27,8 @@ Software Engineer | Backend Engineer
 #### **Owaz Music** — Python, Django, Vue.js, PostgreSQL  
 📅 **Jun 2020 – Jan 2021**  
 - Developed a **full-stack music streaming platform**, implementing **seamless playback**.  
-- Improved **server response time by 25%** using **Redis caching**.  
+- Improved **server response time by 25%** using **Redis caching**.
+- Deployed to AWS EC2
 
 ---  
 
@@ -62,10 +52,10 @@ Software Engineer | Backend Engineer
 ---  
 
 ### **SKILLS**  
-💻 **Programming Languages**: Golang, Java, JavaScript
+💻 **Programming Languages**: Golang, Java, JavaScript, C#
 ☁️ **Cloud & DevOps**: AWS (EC2, S3, Lambda, RDS), Kubernetes, Docker, Terraform  
 📊 **Databases**: PostgreSQL, MySQL, Redis
-🔗 **Backend & APIs**: Microservices, gRPC, REST, MTProto, Spring
+🔗 **Backend & APIs**: Microservices, gRPC, REST, MTProto, Spring, ASP.NET Core
 ⚡ **Performance Optimization**: Profiling (pprof, Pyroscope), Caching (Redis, PgBouncer)
 🛠 **Tools & Technologies**: Linux, Git, GitHub Actions, GitLab CI/CD, Nginx, Kafka
 
@@ -76,4 +66,8 @@ Software Engineer | Backend Engineer
 📅 **Mar 2024 – May 2024**  
 - Taught **C# Basics and Advanced OOP**, mentoring 10+ students in **software engineering principles**.  
 
+#### **Algorithm Community at Oguzhan university**, Member
+📅 **Oct. 2018 – June 2019** 
+• Gave lectures about Binary Search, Dynamic Programming and other Algorithms to a class over 20 Junior CS students.
+• Participated in several algorithm competitions as a team of 2 and got into top 5 out of 20 teams.
 ---
