@@ -37,8 +37,8 @@ menu:
     - name: Tags
       url: tags/
       weight: 10
-    - name: WiKi
-      url: https://github.com/ametow/hugo-PaperMod/wiki/
+    # - name: WiKi
+    #   url: https://github.com/ametow/hugo-PaperMod/wiki/
 
 outputs:
   home:
