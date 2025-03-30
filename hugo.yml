@@ -122,14 +122,15 @@ params:
   # text: "Home"
   # icon: icon.png
   # iconHeight: 35
-
+# googleAnalytics: 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+      ID: G-WB6MWZP8FW
+      SiteVerificationTag: "G-WB6MWZP8FW"
+    # bing:
+    #   SiteVerificationTag: "XYZabc"
+    # yandex:
+    #   SiteVerificationTag: "XYZabc"
 
 
   assets:
