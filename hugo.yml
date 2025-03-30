@@ -55,7 +55,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
-  images: ["images/papermod-cover.png"]
+  images: ['images/me-black-white.png']
 
   ShowShareButtons: true
   ShowReadingTime: true
