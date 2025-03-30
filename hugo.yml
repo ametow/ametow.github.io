@@ -1,6 +1,6 @@
 baseURL: 'https://arslanbek.com'
 languageCode: 'en-us'
-title: "Arslan Ametov"
+title: "Arslan Ametov's Blog"
 copyright: "Arslan Ametov"
 theme: 'PaperMod'
 pagination.pageSize: 5
@@ -48,8 +48,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, x-cards and schema.
-  title: Arslan Ametov
-  description: "Arslan Ametov Website"
+  title: Arslan Ametov's Blog
+  description: "Arslan Ametov's Blog"
   keywords: [Blog, Projects, Experience, About]
   author: Arslan Ametov
   DateFormat: "January 2, 2006"
@@ -92,24 +92,26 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Arslan Ametov"
     Content: >
-      👋 Welcome to my website
+      I write about technical and non-technical stuff.
 
   socialIcons:
     - name: github
       title: Github profile
-      url: "https://github.com/ametow"
-    # - name: Discord
-    #   title: Join discord community
-    #   url: "https://discord.gg/ahpmTvhVmp"
-    # - name: X
-    #   title: Share PaperMod on X
-    #   url: "https://x.com/intent/x/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/ametow/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: buymeacoffee
-      title: Buy me a coffee
-      url: "https://buymeacoffee.com/arsinux"
-
+      url: https://github.com/ametow
+    # - name: buymeacoffee
+    #   title: Buy me a coffee
+    #   url: https://buymeacoffee.com/arsinux
+    - name: linkedin
+      title: LinkedIn
+      url: https://linkedin.com/in/dev-ametov
+    - name: youtube
+      title: Youtube
+      url: https://www.youtube.com/@arslan_ametov
+    - name: leetcode
+      title: Leetcode
+      url: https://leetcode.com/u/arsinux7
   # editPost:
   #   URL: "https://github.com/ametow/hugo-PaperMod/tree/exampleSite/content"
   #   Text: "Suggest Changes" # edit text

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Golang on Arslan Ametov</title>
+    <title>Golang on Arslan Ametov&#39;s Blog</title>
     <link>http://localhost:1313/categories/golang/</link>
-    <description>Recent content in Golang on Arslan Ametov</description>
+    <description>Recent content in Golang on Arslan Ametov&#39;s Blog</description>
     <image>
-      <title>Arslan Ametov</title>
+      <title>Arslan Ametov&#39;s Blog</title>
       <url>http://localhost:1313/images/papermod-cover.png</url>
       <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <copyright>Arslan Ametov</copyright>
-    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rate limiting and Go</title>
+      <link>http://localhost:1313/posts/mastering-rate-limiting/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mastering-rate-limiting/</guid>
+      <description>Understanding Rate Limiting: Guide with Golang Implementation</description>
+    </item>
     <item>
       <title>Golang slices </title>
       <link>http://localhost:1313/posts/go-slices/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/go-slices/</guid>
       <description>Slices in Go, internals of usage</description>
-    </item>
-    <item>
-      <title>Rate limiting</title>
-      <link>http://localhost:1313/posts/mastering-rate-limiting/</link>
-      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mastering-rate-limiting/</guid>
-      <description>Rate limiting fundamentals and Go implementation</description>
     </item>
   </channel>
 </rss>

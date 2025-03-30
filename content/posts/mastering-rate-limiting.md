@@ -1,59 +1,59 @@
 ---
-title: "Rate limiting"
-date: "2025-03-10"
-description: "Rate limiting fundamentals and Go implementation"
-summary: "Rate limiting fundamentals and Go implementation"
+title: "Rate limiting and Go"
+date: "2025-03-20"
+description: "Understanding Rate Limiting: Guide with Golang Implementation"
+summary: "Understanding Rate Limiting: Guide with Golang Implementation"
 tags: ["golang", "rate limiting"]
 categories: ["golang", "system-design"]
 ShowToc: true
 TocOpen: true
 ---
 
-## 🌟 What is Rate Limiting?
+## What is Rate Limiting?
 
 Imagine you're at your favorite coffee shop. The barista can only make so many drinks per minute. If too many people order at once, they have to wait or come back later. ☕️ That's exactly how rate limiting works in the digital world!
 
-Rate limiting is a technique used in software systems to **control the number of requests** a user, IP address, or service can send within a given time frame. This helps prevent spam, abuse, and overloading of resources. 💡
+Rate limiting is a technique used in software systems to **control the number of requests** a user, IP address, or service can send within a given time frame. This helps prevent spam, abuse, and overloading of resources.
 
-## 🎯 Why Do We Need Rate Limiting?
+## Why Do We Need Rate Limiting?
 
 Rate limiting isn’t just some arbitrary restriction—it plays a **crucial role** in keeping online systems stable, secure, and fair. Here’s why it matters:
 
-1. **🛑 Prevents Abuse & Spam** – Stops a single user from making too many requests and overwhelming the system.
-2. **⚖️ Ensures Fair Usage** – Prevents a few users from hogging all the resources so that everyone gets a fair chance.
-3. **💻 Protects Server Resources** – Helps prevent **server crashes** and keeps things running smoothly.
-4. **🔒 Enhances Security** – Mitigates threats like **brute-force attacks** and **DDoS attacks** that can take down services.
+1. **Prevents Abuse & Spam** – Stops a single user from making too many requests and overwhelming the system.
+2. **️Ensures Fair Usage** – Prevents a few users from hogging all the resources so that everyone gets a fair chance.
+3. **Protects Server Resources** – Helps prevent **server crashes** and keeps things running smoothly.
+4. **Enhances Security** – Mitigates threats like **brute-force attacks** and **DDoS attacks** that can take down services.
 
-### 🕵️‍♂️ Real-World Examples of Rate Limiting
+### Real-World Examples of Rate Limiting
 
-- **Login Attempts** 🔐: Many websites limit login attempts to prevent hackers from guessing passwords.
-- **API Requests** 📡: Services like Twitter, Google, and GitHub limit how many requests you can make per second.
-- **Online Ticket Booking 🎟️**: Websites prevent bots from buying up all the tickets for concerts and events.
+- **Login Attempts** : Many websites limit login attempts to prevent hackers from guessing passwords.
+- **API Requests** : Services like Twitter, Google, and GitHub limit how many requests you can make per second.
+- **Online Ticket Booking**: Websites prevent bots from buying up all the tickets for concerts and events.
 
-## 🔄 How Does Rate Limiting Work?
+## How Does Rate Limiting Work?
 
-Rate limiting works by keeping track of recent requests. If a user sends **too many** within a short time, some requests get blocked.
+Rate limiting works by keeping track of recent requests. If a user sends **too many** quickly, some requests get blocked.
 
 There are a few common strategies:
 
-### ⏳ Fixed Window
+### Fixed Window
 
 - Imagine a store that allows only **10 customers per hour**. If 10 people enter at 10 AM, no more are allowed in until 11 AM.
 - Simple but can cause spikes in traffic at window resets.
 
-### 📊 Sliding Window
+### Sliding Window
 
 - Like a rolling **queue** where we count requests over the last 60 seconds, regardless of when they occurred.
 - More **precise** and **fair** than the fixed window.
 
-### 💰 Token Bucket
+### Token Bucket
 
 - Users start with a **set number of tokens** (requests).
 - Tokens regenerate at a fixed rate.
 - A request can only be made if there are enough tokens available.
 - This is often used for APIs to allow occasional bursts of requests.
 
-## 💻 Implementing Rate Limiting in Golang 🎉
+## Implementing Rate Limiting in Golang
 
 Now, let’s get our hands dirty with some Golang code! We will implement a simple rate limiter using a **map** to track requests per IP and a **queue** to manage time-based limits.
 
@@ -93,9 +93,9 @@ func rateLimiter(timestamps []int64, ipAddresses []string, limit int, timeWindow
 		// Check if we can accept the request
 		if log.requests.Len() < limit {
 			log.requests.PushBack(timestamp)
-			result[i] = 1 // Accept request ✅
+			result[i] = 1 // Accept request
 		} else {
-			result[i] = 0 // Reject request ❌
+			result[i] = 0 // Reject request
 		}
 	}
 
@@ -113,23 +113,21 @@ func main() {
 
 ```
 
-### 🚀 How This Code Works:
+### How This Code Works:
 
-1. **📝 Tracking Requests** – We store each IP's request timestamps in a queue.
-2. **🗑️ Removing Old Requests** – We remove requests that are outside the allowed time window before processing new ones.
-3. **✅ Accepting or ❌ Rejecting Requests** – If the number of requests in the time window is below the limit, we accept the request (`1`). Otherwise, we reject it (`0`).
+1. **Tracking Requests** – We store each IP's request timestamps in a queue.
+2. **Removing Old Requests** – We remove requests that are outside the allowed time window before processing new ones.
+3. **Accepting or Rejecting Requests** – If the number of requests in the time window is below the limit, we accept the request (`1`). Otherwise, we reject it (`0`).
 
-## 🏆 Enhancements & Next Steps
+## Enhancements & Next Steps
 
 If you want to make this **even better**, try:
 
-1. **🌍 Using Redis** – For distributed rate limiting across multiple servers.
-2. **📈 Adaptive Rate Limiting** – Adjust limits dynamically based on user behavior.
-3. **🚧 Implementing Token Bucket Algorithm** – To allow burst requests.
-4. **🕒 Logging & Monitoring** – Keep track of rate limit violations for security analysis.
+1. **Using Redis** – For distributed rate limiting across multiple servers.
+2. **Adaptive Rate Limiting** – Adjust limits dynamically based on user behavior.
+3. **Implementing Token Bucket Algorithm** – To allow burst requests.
+4. **Logging & Monitoring** – Keep track of rate limit violations for security analysis.
 
-## 🎉 Wrapping Up
+## Wrapping Up
 
-Rate limiting is a **powerful tool** that keeps services running smoothly and fairly. Whether you're building an API, a website, or a login system, adding rate limiting can **protect your server** while ensuring a great user experience. 🏆
-
-💡 **Now it's your turn!** How would you implement rate limiting in your own projects? Let’s discuss! 🚀
+The rate limiter is a critical component of robust, scalable systems. Understanding its principles separates good engineers from great ones.
