@@ -1,4 +1,4 @@
-baseURL: 'https://arslanbek.com'
+baseURL: 'https://arslanbek.com/'
 languageCode: 'en-us'
 title: "Arslan Ametov"
 copyright: "Arslan Ametov"
@@ -12,7 +12,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -37,8 +37,8 @@ menu:
     - name: Search
       url: search/
       weight: 15
-    # - name: WiKi
-    #   url: https://github.com/ametow/hugo-PaperMod/wiki/
+    # - name: GitHub
+    #   url: https://github.com/ametow
 
 outputs:
   home:
@@ -47,7 +47,7 @@ outputs:
     - JSON
 
 params:
-  env: production # to enable google analytics, opengraph, x-cards and schema.
+  env: production
   title: Arslan Ametov's Blog
   description: "Arslan Ametov's Blog"
   keywords: [Blog, Projects, Experience, About]
