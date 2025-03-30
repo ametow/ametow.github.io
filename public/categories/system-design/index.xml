@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>System-Design on Arslan Ametov</title>
-    <link>https://arslanbek.com/categories/system-design/</link>
+    <link>http://localhost:1313/categories/system-design/</link>
     <description>Recent content in System-Design on Arslan Ametov</description>
     <image>
       <title>Arslan Ametov</title>
-      <url>https://arslanbek.com/images/papermod-cover.png</url>
-      <link>https://arslanbek.com/images/papermod-cover.png</link>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <copyright>Arslan Ametov</copyright>
     <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://arslanbek.com/categories/system-design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/system-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rate limiting and Go</title>
-      <link>https://arslanbek.com/posts/mastering-rate-limiting/</link>
+      <link>http://localhost:1313/posts/mastering-rate-limiting/</link>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://arslanbek.com/posts/mastering-rate-limiting/</guid>
+      <guid>http://localhost:1313/posts/mastering-rate-limiting/</guid>
       <description>Understanding Rate Limiting: Guide with Golang Implementation</description>
     </item>
   </channel>
