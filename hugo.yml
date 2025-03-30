@@ -126,9 +126,9 @@ params:
   # icon: icon.png
   # iconHeight: 35
 # googleAnalytics: 
-  analytics:
-    google:
-      id: G-WB6MWZP8FW
+  # analytics:
+  #   google:
+    #   SiteVerificationTag: "XYZabc"
     # bing:
     #   SiteVerificationTag: "XYZabc"
     # yandex:
@@ -197,3 +197,5 @@ services:
     disableInlineCSS: true
   x:
     disableInlineCSS: true
+  googleAnalytics:
+    ID: G-WB6MWZP8FW
