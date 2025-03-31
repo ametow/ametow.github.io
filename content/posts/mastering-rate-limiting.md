@@ -55,7 +55,7 @@ There are a few common strategies:
 
 ## Implementing Rate Limiting in Golang
 
-Now, let’s get our hands dirty with some Golang code! We will implement a simple rate limiter using a **map** to track requests per IP and a **queue** to manage time-based limits.
+Now, let’s get our hands dirty with some Golang code! We will implement a simple sliding window rate limiter using a **map** to track requests per IP and a **queue** to manage time-based limits.
 
 ```go
 package main
