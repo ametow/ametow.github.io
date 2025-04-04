@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <copyright>Arslan Ametov</copyright>
-    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>xpos</title>
+      <link>http://localhost:1313/posts/xpos/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/xpos/</guid>
+      <description>a tunneling service that takes your localhost to the public network</description>
+    </item>
     <item>
       <title>Rate limiting and Go</title>
       <link>http://localhost:1313/posts/mastering-rate-limiting/</link>

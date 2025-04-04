@@ -3,13 +3,13 @@ title: "xpos"
 date: "2025-04-04"
 description: "a tunneling service that takes your localhost to the public network"
 summary: ""
-tags: ["golang", "tunneling", "proxy", "xpos"]
+tags: ["golang", "tunneling", "proxy"]
 categories: ["golang"]
 ShowToc: true
 TocOpen: true
 ---
 
-# Just shipped: xpos — a tunneling service built for developers
+## Just shipped: xpos — a tunneling service built for developers
 
 I've been working on a lightweight alternative to tools like Ngrok, with a focus on simplicity, speed, and real-time developer experience.
 
