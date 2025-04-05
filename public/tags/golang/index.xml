@@ -15,11 +15,11 @@
     <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>xpos</title>
+      <title>xpos - expose your server to the internet</title>
       <link>http://localhost:1313/posts/xpos/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/xpos/</guid>
-      <description>a tunneling service that takes your localhost to the public network</description>
+      <description>the tunneling service that takes your localhost to the public network</description>
     </item>
     <item>
       <title>Rate limiting and Go</title>

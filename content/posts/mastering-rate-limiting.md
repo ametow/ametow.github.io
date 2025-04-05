@@ -5,6 +5,7 @@ description: "Understanding Rate Limiting: Guide with Golang Implementation"
 summary: "Understanding Rate Limiting: Guide with Golang Implementation"
 tags: ["golang", "rate limiting"]
 categories: ["golang", "system-design"]
+images: ["/images/xpos-logo.png"]
 ShowToc: true
 TocOpen: true
 ---
@@ -131,3 +132,6 @@ If you want to make this **even better**, try:
 ## Wrapping Up
 
 The rate limiter is a critical component of robust, scalable systems. Understanding its principles separates good engineers from great ones.
+
+Here is video supplement on Youtube:
+{{< youtube 59l7tTlgAn8 >}}

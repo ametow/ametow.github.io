@@ -40,3 +40,6 @@ Would love feedback from fellow devs and OSS contributors.
 Give it a spin: <https://xpos-it.com>
 
 Repo: <https://github.com/ametow/xpos>
+
+Here is video supplement on Youtube:
+{{< youtube FcLhkfe0DV0 >}}
